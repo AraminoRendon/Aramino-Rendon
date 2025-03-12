@@ -1,0 +1,110 @@
+body{
+  
+    background-image: linear-gradient(180deg, rgb(244, 19, 203), rgb(226, 226, 35));
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+header {
+
+
+    height: 39Svh;
+    width:100%;
+    background-color: aqua;
+    color: rgb(5, 7, 12);
+    text-align: center;
+    padding: 3px;
+    border-radius: 20px;
+    border: 10px solid #060ae6;
+    }
+
+
+
+    h1{
+        font-size:16px; 
+        color: rgba(3, 3, 3, 0.904);
+     }
+
+
+
+  h2{
+       
+        font-size: 20px; 
+        color: rgb(10, 29, 199);
+    }
+
+
+
+   h3{
+        font-size:18px; 
+        color: #56046b;
+   }
+
+
+
+    h4{
+      font-size: 17px;
+      color: black;
+    }
+   
+    
+
+    h5{
+        color: black;
+        font-size: 18px;
+
+    }
+
+section{
+
+    border: 10px solid #d31ed3;
+    background-image: linear-gradient(180deg, rgb(154, 19, 154), rgb(4, 0, 255));
+    padding: 30px;
+    border-radius:180px;
+    box-shadow:5px 5px 20px rgba(0.0.0.0.1) ;
+
+    p{
+        color:rgb(103, 23, 196) ;
+    }
+}
+
+a{
+    color:#2510e7;
+    text-decoration: none;
+   
+}
+a :hover{
+    text-decoration: underline;
+}
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box
+}
+.image{
+    width: 100%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #330067;
+    box-shadow: 50px;
+}
+
+#button{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #330067;
+    box-shadow: 50px;
+}
+
+
